@@ -1,0 +1,520 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1758111160095703, "dur": 4134956, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111160095996, "dur": 4315, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111160100313, "dur": 32283, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111160132598, "dur": 1728811, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111161861412, "dur": 2357526, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111164218942, "dur": 11716, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111164231080, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1758111161520814, "dur": 325420, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1758111161521599, "dur": 42670, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1758111161831385, "dur": 3434, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1758111161834822, "dur": 11404, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1758111161835449, "dur": 10237, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1758111161850259, "dur": 1216, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1758111161849546, "dur": 1953, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111164231206, "dur": 170, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1758111161921078, "dur":774, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111161921859, "dur":34, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1758111161921911, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1758111161921926, "dur":625, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1758111161922601, "dur":650, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111161923251, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164199915, "dur":140, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200055, "dur":146, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200201, "dur":124, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200326, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200345, "dur":91, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200437, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200472, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200492, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200498, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200500, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200509, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200510, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200515, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200517, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200523, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200524, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200529, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200530, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200536, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200542, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200547, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200548, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200554, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200555, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200559, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200561, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200567, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200568, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200574, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200575, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200586, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200587, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200592, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200615, "dur":12, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164200639, "dur":1099, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1758111161924235, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111161924236, "dur":3041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111161927278, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1758111161927404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111161936846, "dur":5967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1758111161942990, "dur":168402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111162111402, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111162112248, "dur":5955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111162118231, "dur":78744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111162196979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111162196986, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111162198089, "dur":677926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111162876018, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111162876042, "dur":1222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111162877278, "dur":876305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111163753590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1758111163753599, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1758111163756251, "dur":443709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111161923612, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111161923614, "dur":3762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111161927377, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1758111161927507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111161947687, "dur":6426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1758111161954185, "dur":284623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111162238811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111162238818, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111162240309, "dur":476961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111162717277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111162717288, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111162718778, "dur":126983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111162845765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111162845772, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111162848816, "dur":392455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111163241276, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111163241284, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111163242596, "dur":440888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111163683494, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1758111163683510, "dur":2641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1758111163686164, "dur":513787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111161924162, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111161924162, "dur":3144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111161927306, "dur":35678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1758111161962989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111161963012, "dur":1758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1758111161964820, "dur":515548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162480372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111162480380, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162481658, "dur":134511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162616231, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111162616252, "dur":3322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162619619, "dur":84351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162703976, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111162703987, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162706047, "dur":194921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162900972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111162900978, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111162902162, "dur":346579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111163248752, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111163248770, "dur":13354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111163262157, "dur":436987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111163699155, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1758111163699172, "dur":2195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1758111163701384, "dur":498580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111161924966, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111161924966, "dur":2297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111161927263, "dur":1334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1758111161928606, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111161936151, "dur":8630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1758111161944870, "dur":313544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1758111162258418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111162258424, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1758111162260305, "dur":76545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162336860, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111162336876, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162339627, "dur":66584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162406215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111162406222, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162409085, "dur":202758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162611859, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111162611883, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162615273, "dur":104971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162720249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111162720257, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162721603, "dur":220014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162941624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111162941636, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111162943522, "dur":594497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111163538029, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1758111163538046, "dur":5853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1758111163543917, "dur":656049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111161923249, "dur":5, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111161923258, "dur":3779, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111161927241, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1758111161927252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111161933012, "dur":1681, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1758111161934698, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1758111161934749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111161935392, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1758111161941300, "dur":541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1758111161941855, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111161942485, "dur":6411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1758111161948993, "dur":261681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words.exe" }}
+,{ "pid":12345, "tid":5, "ts":1758111162210682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111162210695, "dur":3311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words.exe" }}
+,{ "pid":12345, "tid":5, "ts":1758111162214021, "dur":83070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162297098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111162297109, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162298764, "dur":173904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162472673, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111162472683, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162474098, "dur":146215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162620323, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111162620341, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162622076, "dur":69911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162691994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111162692005, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162693606, "dur":86749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162780360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111162780367, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111162781535, "dur":321220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111163102766, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111163102783, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111163105671, "dur":698128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111163803806, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1758111163803818, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1758111163806329, "dur":393587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111161923941, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111161923942, "dur":3266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111161927209, "dur":32121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1758111161959336, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111161959369, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1758111161962908, "dur":167500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111162130416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111162130428, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111162132107, "dur":282119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111162414231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111162414240, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111162415529, "dur":203869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111162619409, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111162619428, "dur":2304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111162621746, "dur":440818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111163062569, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111163062579, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111163065078, "dur":152135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111163217223, "dur":96, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111163217334, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111163219596, "dur":469230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111163688830, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1758111163688837, "dur":9010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1758111163697881, "dur":502081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111161924446, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111161924447, "dur":2751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111161927198, "dur":1583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1758111161928944, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111161936339, "dur":5730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1758111161942228, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1758111161942597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111161942614, "dur":8895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1758111161951708, "dur":378938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162330655, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111162330672, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162333688, "dur":70136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162403830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111162403870, "dur":1490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162405378, "dur":96956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162502339, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111162502351, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162505390, "dur":167691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162673090, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111162673106, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162675542, "dur":316936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162992486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111162992498, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111162993812, "dur":146775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111163140596, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111163140614, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111163141849, "dur":592805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111163734658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1758111163734678, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1758111163737175, "dur":462770, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111161924706, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111161924707, "dur":2464, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111161927172, "dur":30425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1758111161957606, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111161957638, "dur":1718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1758111161959409, "dur":158558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162117972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162117978, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162119213, "dur":44141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162163359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162163369, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162165073, "dur":67847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162232983, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162233001, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162235621, "dur":131312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162366937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162366944, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162368228, "dur":129010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162497242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162497250, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162498284, "dur":94876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162593171, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162593190, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162596417, "dur":119398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162715830, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162715859, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162717318, "dur":125912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162843240, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111162843258, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111162845137, "dur":785395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111163630542, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1758111163630560, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1758111163635783, "dur":564123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111161925176, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111161925177, "dur":1986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111161927163, "dur":2173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1758111161929345, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111161936323, "dur":6555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1758111161942978, "dur":190805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162133788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111162134102, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162137393, "dur":82687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162220086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111162220096, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162221641, "dur":126343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162347994, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111162348010, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162350214, "dur":83766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162433987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111162433998, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162435892, "dur":51881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162487779, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111162487789, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162489059, "dur":485964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162975030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111162975041, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111162976727, "dur":344855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111163321587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111163321594, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111163323698, "dur":793998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111164117699, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1758111164117706, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1758111164120904, "dur":78985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758111161925393, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758111161925393, "dur":1657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758111161927051, "dur":27476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1758111161954535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758111161954669, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1758111161957946, "dur":1849877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758111163807827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1758111163807834, "dur":1250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1758111163809097, "dur":390858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111161925607, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111161925608, "dur":1813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111161927421, "dur":23840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1758111161951270, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111161951302, "dur":3478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1758111161954852, "dur":283954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162238811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111162238820, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162240341, "dur":159915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162400260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111162400267, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162401461, "dur":100872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162502340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111162502375, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162505173, "dur":38821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162544000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111162544009, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162545382, "dur":368281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162913667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111162913674, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111162915568, "dur":1282863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111164198448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1758111164198455, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1758111164199812, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1758111164199814, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111161925770, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111161925770, "dur":1395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111161927167, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1758111161927509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111161948149, "dur":3836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1758111161952128, "dur":111260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162063398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111162064428, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162065761, "dur":93333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162159102, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111162159116, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162160658, "dur":316092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162476816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111162476823, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162478867, "dur":131733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162610610, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111162610628, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162614040, "dur":115779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162729828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111162729842, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162731913, "dur":234896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162966814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111162966822, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111162968452, "dur":315482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111163283944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111163283960, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111163285936, "dur":158017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111163443963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1758111163443980, "dur":1865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1758111163445858, "dur":754049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111161925975, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111161925976, "dur":1068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111161927049, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1758111161927282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111161937026, "dur":6971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1758111161944235, "dur":328814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162273055, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111162273064, "dur":10119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162283214, "dur":187302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162470521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111162470530, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162471968, "dur":179380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162651354, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111162651364, "dur":2858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162654236, "dur":74452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162728696, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111162728708, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111162730988, "dur":413901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111163144893, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111163144923, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111163146489, "dur":203402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111163349895, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111163349910, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111163351280, "dur":714538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111164065827, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1758111164065843, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1758111164067753, "dur":132167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111161925925, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111161925925, "dur":1236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111161927162, "dur":30824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1758111161957992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111161958014, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1758111161960839, "dur":145311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162106161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111162106482, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162108357, "dur":74671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162183044, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111162183069, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162185837, "dur":142526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162328372, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111162328388, "dur":3131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162331567, "dur":145152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162476723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111162476815, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162478932, "dur":173180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162652115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111162652121, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162655120, "dur":226377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162881504, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111162881517, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111162883210, "dur":222419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111163105639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111163105655, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111163108279, "dur":655274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111163763557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1758111163763565, "dur":3119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1758111163766700, "dur":433234, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111161926086, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111161926087, "dur":1002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111161927090, "dur":2345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1758111161929442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111161937034, "dur":5666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1758111161942802, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1758111161943098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111161943116, "dur":6366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1758111161949562, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1758111161949786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111161950876, "dur":8431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1758111161959368, "dur":232923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111162192295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111162192302, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111162193434, "dur":514596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111162708040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111162708054, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111162711079, "dur":648904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111163360002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163360013, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111163361292, "dur":1050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111163362348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163362355, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1758111163363340, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1758111163363354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163363409, "dur":1059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1758111163364481, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1758111163364491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163364496, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1758111163365584, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1758111163365597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163365601, "dur":8335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1758111163373953, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1758111163374030, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163374035, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1758111163374917, "dur":15129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1758111163390053, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163390063, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1758111163392035, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1758111163392060, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163392071, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1758111163395228, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1758111163395253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163395262, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/resources.assets" }}
+,{ "pid":12345, "tid":15, "ts":1758111163397405, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1758111163397424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163397432, "dur":1783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1758111163399238, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1758111163399375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163399385, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1758111163400857, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1758111163400899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163400904, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1758111163402036, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1758111163402046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163402051, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1758111163403178, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1758111163403250, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1758111163403268, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/boot.config" }}
+,{ "pid":12345, "tid":15, "ts":1758111163404301, "dur":795589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111161926220, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111161926221, "dur":818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111161927044, "dur":191947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1758111162118996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162119303, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":16, "ts":1758111162120324, "dur":71463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162191793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162191803, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162193150, "dur":194507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162387665, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162387679, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162389932, "dur":86673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162476613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162476625, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162479263, "dur":31920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162511191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162511203, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162513041, "dur":136906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162649957, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162649975, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162651793, "dur":85428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162737226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162737235, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162738630, "dur":253867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162992501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111162992509, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111162994239, "dur":442130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111163436379, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1758111163436450, "dur":3488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kim56/Desktop/Typing Words/Typing Words_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1758111163439969, "dur":759923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1758111164202743, "dur":1267, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1758111164231471, "dur": 4989, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1758111164231069, "dur": 5420, "ph": "X", "name": "Write chrome-trace events", "args": {} },
